@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{ 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Righteous', cursive;
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #232f2a 16.62%, #5d8e7a 85.61%);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho__imagem{
+    height: 72px;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 32px;
+}
+.cabecalho__menu__intem{
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #fff2e7;
+}
+/*posiciona imagem e texto*/
+.conteudo__principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo__principal__escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo__principal__titulo{
+    font-weight: 400px;
+    font-size: 64px;
+    color: #fff2e7; 
+}
+.conteudo__principal__subtitulo{
+    font-weight: 400px;
+    font-size: 24px;
+    color: #ecd6c4;
+}
+.conteudo__principal__botao{
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2f2325;
+}
+.conteudo__principal__botao:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+    cursor: pointer;
+}
+.conteudo__principal__imagem{
+    height: 430px;
+}
+.conteudo__secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.conteudo__secundario__titulo{
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 48px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff2e7;
+    margin-bottom: 16px;
+}
+.conteudo__secundario__paragrafo{
+    font-weight: 300;
+    font-size: 18px;
+    color: #ecd6c4;
+}
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #fff2e7;
+}
+.rodape__imagem{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
